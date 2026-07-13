@@ -1,0 +1,12 @@
+{
+  "name": "oracle-presentation-landing",
+  "version": "1.0.0",
+  "description": "Creative interactive landing page for Oracle interview presentation",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --entry-file=index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
