@@ -53,8 +53,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if ('IntersectionObserver' in window) {
     const revealObserverOptions = {
       root: null,
-      rootMargin: '0px 0px -10% 0px', // Reveal slightly before entering viewport fully
-      threshold: 0.1
+      rootMargin: '0px 0px 50px 0px', // Reveal elements slightly before they enter the viewport to avoid delay
+      threshold: 0.05
     };
 
     const revealObserver = new IntersectionObserver((entries, observer) => {
